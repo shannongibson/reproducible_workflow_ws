@@ -1,6 +1,6 @@
 #uncomment next line if you need to install hole punch package
-#install.packages("remotes")
-#remotes::install_github("karthik/holepunch")
+install.packages("remotes")
+remotes::install_github("karthik/holepunch")
 library(holepunch)
 write_compendium_description(package = "Your compendium name", 
                              description = "Your compendium description")
