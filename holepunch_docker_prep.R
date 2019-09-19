@@ -5,6 +5,7 @@ library(holepunch)
 write_compendium_description(package = "Your compendium name", 
                              description = "Your compendium description")
 # to write a description, with dependencies. Be sure to fill in placeholder text
+#small commit 
 
 write_dockerfile(maintainer = "your_name") 
 # To write a Dockerfile. It will automatically pick the date of the last 
